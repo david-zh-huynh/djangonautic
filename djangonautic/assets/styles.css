@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Montserrat:700')
+html, body {
+    margin: 0px;
+    height: 100%;
+}
+
+body{
+    background-color: #0f121f;
+    background-image: url(stars_still.png);
+    background-repeat-y: no-repeat;
+
+}
+body *{
+    color: #fff;
+    font-family: Ubuntu;
+
+}
+
+#vanta-canvas {
+   position:absolute;
+   top:0;
+   left:0;
+   bottom:0;
+   right:0;
+   height:100vh;
+   width:100%;
+}
+
+h1,h1,h3,h4,h5 {
+    font-weight: normal;
+    margin: 0;
+}
+
+p {
+    color #fff;
+}
+
+a, a:hover, a:visited {
+    color: #fff;
+    text-decoration: none;
+}
